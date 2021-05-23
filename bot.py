@@ -111,7 +111,7 @@ def process_lastname_step(message):
         msg = bot.send_message(message.chat.id, 'Вы успешно зарегистрированы')
     except Exception as e:
         bot.reply_to(message, 'Вы уже зарегистрированы')
-
+# make some difference
 
 # Enable saving next step handlers to file "./.handlers-saves/step.save".
 # Delay=2 means that after any change in next step handlers (e.g. calling register_next_step_handler())
